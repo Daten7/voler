@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-    "build": "medusa build && mkdir -p dist && cp -r .medusa/server dist/",
+    "build": "medusa build && mkdir -p dist && cp -r .medusa/server/* dist/",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
     "dev": "medusa develop",
