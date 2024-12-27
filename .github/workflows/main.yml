@@ -28,4 +28,7 @@ jobs:
       run: npm run build
 
     - name: Run unit tests
-      run: npm run test:unit
+      run: |
+        SET TEST_TYPE=unit
+        SET NODE_OPTIONS=--experimental-vm-modules
+        npm run test:unit
