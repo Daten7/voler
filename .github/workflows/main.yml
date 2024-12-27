@@ -1,5 +1,0 @@
-            - name: NextJS Cache
-  # You may pin to the exact commit or the version.
-  # uses: jongwooo/next-cache@99ef7ae4a6684baafc08e591524d1987dcdc4023
-  uses: jongwooo/next-cache@v1.0.0
-          
